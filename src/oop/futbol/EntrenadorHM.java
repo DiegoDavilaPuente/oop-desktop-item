@@ -1,8 +1,7 @@
 package oop.futbol;
 
-public class FutbolistaHM extends SeleccionFutbolHM implements IntegranteInterface, DeportistaInterface {
-    private int dorsal;
-    private String demarcacion;
+public class EntrenadorHM extends SeleccionFutbolHM implements IntegranteInterface, DeportistaInterface{
+    private int idFederacion;
 
     @Override
     public void entrenar() {
